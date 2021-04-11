@@ -15,5 +15,7 @@ listening to it .However it is quite difficult to parametrize the style of music
 2) VAE-GAN :We propose a VAE-GAN architecture(Variational Auto-encoder Generative Adversarial Network). By combining a variational auto-encoder with a generative
 adversarial network , the learned feature representations in the GAN discriminator can be used as the basis for the VAE reconstruction objective. This makes the training process significantly more stable as opposed to using just a VAE as the generator has information regarding the real-world entities it is trying to generate from the discriminator of the GAN rather than guessing what the real-world entity should be at each iteration. In addition, the Encoder learns the mapping of images to Latent space which is very useful.
 
-Work in Progress !!
- 
+# Architecture Diagram
+![alt text](./archDiag.png)
+# Results
+
